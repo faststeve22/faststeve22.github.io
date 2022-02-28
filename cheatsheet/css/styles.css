@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    margin: 0; 
+    position: relative;
+    background: url('../css/programming-1646085746893-3216.jpg');
+}
+
+header {
+    margin: 0;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0px; 
+    height: 50px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.323);
+    z-index: 1;
+}
+
+nav{
+    Position: absolute;
+    top: 8px;
+    right: 0;
+    background-color: transparent;
+}
+
+ul{
+    background-color: transparent;
+}
+
+li {
+    display: inline-block;
+    padding: 0;
+    Margin: 0;
+    Font-size: 30px;
+    background-color: transparent;
+
+}
+
+a {
+    padding: 10px;
+    margin: 10px;
+    background-color: transparent;
+    color: rgba(18, 216, 34, 0.534);
+}
+
+a:hover {
+    background-color: rgba(39, 167, 71, 0.35);
+    color: black;
+    border: 3px solid black;
+}
+
+
+h1 {
+    color: rgba(18, 216, 34, 0.534);
+    text-align: center;
+     
+
+}
+
+
+div {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    margin-top: 140px;
+}
+
+h2 {
+    color: rgba(18, 216, 34, 0.534);
+    background-color: transparent;
+    padding: 5px; 
+    margin: 8px;
+}
+
+
+
+
+table, 
+th,
+td {
+    border: 2px solid rgb(39, 167, 71);
+}
+
+td {
+    color: rgb(39, 167, 71);
+    background-color: #000;
+    text-align: left;
+}
+
+th {
+    background-color: #000000;
+    color: rgb(39, 167, 71);
+    text-align: center;
+}
+
+#table1 {
+    margin: 200px auto;
+}
+
+#table2 {
+  margin: 200px auto;
+}
+
+footer {
+    color: rgba(18, 216, 34, 0.315);
+    background-color: #000;
+    border: 2px solid rgba(18, 216, 34, 0.315);
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    font-size: 40px; 
+    margin-top: 800px;
+
+}
